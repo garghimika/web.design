@@ -1,0 +1,33 @@
+/* .container
+{ height: 400px;
+  border: 2px solid red;
+  background-color: blanchedalmond;
+  display: flex;
+   /* flex-direction: row; 
+  flex-wrap:wrap; */
+  /* flex-flow: wrap row; */
+  /* justify-content:center;
+  
+   }
+ .box{
+    background-color: yellowgreen;
+    border: 1px solid blue;
+
+ } */
+
+.container
+{
+    height: 400px;
+    border: 2px solid mediumpurple;
+    background-color: aqua;
+    display : flex ;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+}
+
+.box
+{
+    width: 80px;
+    background-color: chartreuse;
+    border: 1px solid blueviolet;
+}
